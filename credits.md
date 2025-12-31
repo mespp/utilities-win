@@ -3,3 +3,9 @@
 
 - spotx
 	- https://github.com/SpotX-Official/SpotX
+
+- oldLikeButton
+	- https://github.com/Maskowh/spicetify-old-like-button-extension
+
+- HeartButton
+	- https://github.com/pauburk/spotify-heart-button

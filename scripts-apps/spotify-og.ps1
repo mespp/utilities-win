@@ -1,3 +1,5 @@
+# this not working cause spotx has problems with spotify.dll.bak file
+
 # uninstall current spotify
 Start-Process -FilePath "misc/uninstall-spotify.bat" -Wait
 
