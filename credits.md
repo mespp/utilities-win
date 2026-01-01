@@ -6,3 +6,6 @@
 
 - scripts-apps\misc\spicetify-extensions\volumePercentaje.js
 	- https://github.com/daksh2k/Spicetify-stuff/blob/master/Extensions/volumePercentage.js
+
+- scripts-apps\misc\spicetify-extensions\spicetify-playlist-labels.js
+	- https://github.com/qixing-jk/spicetify-playlist-labels/releases/tag/v1.1.0
