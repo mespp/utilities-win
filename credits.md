@@ -1,11 +1,8 @@
-﻿- win 11 debloat 
+﻿- scripts-win\win-11-debloat.ps1
 	- https://github.com/Raphire/Win11Debloat
 
-- spotx
+- scripts-apps\spotx.ps1
 	- https://github.com/SpotX-Official/SpotX
 
-- oldLikeButton
-	- https://github.com/Maskowh/spicetify-old-like-button-extension
-
-- HeartButton
-	- https://github.com/pauburk/spotify-heart-button
+- scripts-apps\misc\spicetify-extensions\volumePercentaje.js
+	- https://github.com/daksh2k/Spicetify-stuff/blob/master/Extensions/volumePercentage.js

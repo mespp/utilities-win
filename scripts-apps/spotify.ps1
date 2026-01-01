@@ -1,5 +1,3 @@
-# button doesnt work not my fault just there isnt a working extension
-
 # download spotify
 $URL = "https://download.scdn.co/SpotifySetup.exe"
 $AppsFolder = Join-Path -Path $PSScriptRoot -ChildPath "apps"
@@ -19,8 +17,13 @@ Stop-Process -Name "Spotify" -Force -ErrorAction SilentlyContinue
 # install spicetify
 iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex
 
-# add oldLikeButton extension
+# add extensions
 cd ..
-Copy-Item -Path "misc/spicetify-extensions/oldLikeButton.js" -Destination "$env:APPDATA\spicetify\Extensions"
-spicetify config extensions oldLikeButton.js
+Copy-Item -Path "misc/spicetify-extensions/volumePercentage.js" -Destination "$env:APPDATA\spicetify\Extensions"
+Copy-Item -Path "misc/spicetify-extensions/spicetify-playlist-labels.js" -Destination "$env:APPDATA\spicetify\Extensions"
+spicetify config extensions volumePercentage.js
+spicetify config extensions spicetify-playlist-labels.js
 spicetify apply
+
+# close spotify
+Stop-Process -Name "Spotify" -Force -ErrorAction SilentlyContinue
