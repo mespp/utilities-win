@@ -9,4 +9,3 @@ Start-Process -FilePath "curl.exe" -ArgumentList "-L -O $URL" -Wait
 
 # install whatsapp
 Start-Process -FilePath "$AppsFolder/whatsapp-og.msixbundle"
-Start-Sleep -Seconds 10
