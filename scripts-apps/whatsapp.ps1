@@ -1,5 +1,5 @@
 # download whatsapp
-$URL = "https://github.com/mespp/utilities-win/releases/download/apps/whatsapp-og.msixbundle"
+$URL = "https://github.com/mespp/utilities-win/releases/download/apps/whatsapp-2.2546.3.0.msixbundle"
 $AppsFolder = Join-Path -Path $PSScriptRoot -ChildPath "apps"
 
 if (-not (Test-Path $AppsFolder)) { New-Item -ItemType Directory -Path $AppsFolder | Out-Null }
