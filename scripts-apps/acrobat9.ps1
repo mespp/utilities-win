@@ -1,5 +1,5 @@
 # download acrobat
-$URL = "https://github.com/mespp/utilities-win/releases/download/apps/Adobe.Acrobat.9.Standard.iso"
+$URL = "https://github.com/mespp/utilities-win/releases/download/apps/adobe-acrobat-9-standard.iso"
 $AppsFolder = Join-Path -Path $PSScriptRoot -ChildPath "apps"
 
 if (-not (Test-Path $AppsFolder)) { New-Item -ItemType Directory -Path $AppsFolder | Out-Null }
