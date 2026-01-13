@@ -5,4 +5,4 @@ once you use this, it will say "this key indicates you upgraded from an older ve
 choose acrobat 6 standard, and enter this one:
 1016-1411-5060-6037-2299-9908
 
-remeber to dismount the .iso after the installation
+remember to dismount the .iso after the installation
