@@ -14,7 +14,7 @@ $DriveLetter = ($MountResult | Get-Volume).DriveLetter
 
 if ($DriveLetter) {
     $InstallPath = "$($DriveLetter):\AutoPlay.exe"
-    Start-Process -FilePath $InstallPath -Wait
+    Start-Process -FilePath $InstallPath
 }
 
 # show .txt with key
