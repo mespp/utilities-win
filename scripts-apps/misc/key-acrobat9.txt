@@ -1,0 +1,8 @@
+first key:
+1016-1397-9050-6534-2579-3162
+
+once you use this, it will say "this key indicates you upgraded from an older version"
+choose acrobat 6 standard, and enter this one:
+1016-1411-5060-6037-2299-9908
+
+remeber to dismount the .iso after the installation
