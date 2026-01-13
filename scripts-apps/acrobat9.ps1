@@ -8,7 +8,7 @@ cd $AppsFolder
 Start-Process -FilePath "curl.exe" -ArgumentList "-L -O $URL" -Wait
 
 # mount and install acrobat
-$IsoPath = Join-Path -Path $AppsFolder -ChildPath "Adobe.Acrobat.9.Standard.iso"
+$IsoPath = Join-Path -Path $AppsFolder -ChildPath "adobe-acrobat-9-standard.iso"
 $MountResult = Mount-DiskImage -ImagePath $IsoPath -PassThru
 $DriveLetter = ($MountResult | Get-Volume).DriveLetter
 
