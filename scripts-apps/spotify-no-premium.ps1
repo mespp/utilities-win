@@ -25,8 +25,10 @@ iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex
 cd ..
 Copy-Item -Path "misc/spicetify-extensions/volumePercentage.js" -Destination "$env:APPDATA\spicetify\Extensions"
 Copy-Item -Path "misc/spicetify-extensions/spicetify-playlist-labels.js" -Destination "$env:APPDATA\spicetify\Extensions"
+Copy-Item -Path "misc/spicetify-extensions/adblockify.js" -Destination "$env:APPDATA\spicetify\Extensions"
 spicetify config extensions volumePercentage.js
 spicetify config extensions spicetify-playlist-labels.js
+spicetify config extensions adblockify.js
 spicetify apply
 
 # close spotify

@@ -9,3 +9,6 @@
 
 - scripts-apps\misc\spicetify-extensions\spicetify-playlist-labels.js
 	- https://github.com/qixing-jk/spicetify-playlist-labels/releases/tag/v1.1.0
+
+- scripts-apps\misc\spicetify-extensions\adblockify.js
+	- https://github.com/rxri/spicetify-extensions/blob/main/adblock/adblock.js
