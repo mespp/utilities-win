@@ -12,3 +12,6 @@
 
 - scripts-apps\misc\spicetify-extensions\adblockify.js
 	- https://github.com/rxri/spicetify-extensions/blob/main/adblock/adblock.js
+
+- scripts-win\misc\auto-hostspot-ps1
+	- https://youtu.be/CKXwZkYRbUw?si=tDNp42ShsqRRZLQG
