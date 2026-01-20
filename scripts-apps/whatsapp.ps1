@@ -8,4 +8,8 @@ cd $AppsFolder
 Start-Process -FilePath "curl.exe" -ArgumentList "-L -O $URL" -Wait
 
 # install whatsapp
-Start-Process -FilePath "$AppsFolder/whatsapp-og.msixbundle"
+Start-Process -FilePath "$AppsFolder/whatsapp-2.2546.3.0.msixbundle"
+
+# block msstore autoupdates
+cd ..
+Start-Process -FilePath "misc/disable-msstore-updates.reg"
